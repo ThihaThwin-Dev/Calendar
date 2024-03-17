@@ -30,21 +30,24 @@
                 <div id="calendar-numbers">
                 </div>
             </div>
-            <!-- Container for Calendar Date Input Selector for Adding Event -->
-            <div class="calendar-selector">
-                <input type="date" id="event-selector">
+            <!-- Start of Footer Container -->
+            <div class="footer-container">
+                <!-- Container for Calendar Date Input Selector for Adding Event -->
+                <div class="calendar-selector">
+                    <input type="date" id="event-selector">
+                </div>
+                <!-- Container for Calendar Event input box and button -->
+                <div class="calendar-event">
+                    <input type="text" id="event-textinput">
+                    <button id="addEvent" onclick="calendarEvent()">Add Event!</p>
+                </div>
+                <!-- Container for Zodiac Sign Check Button -->
+                <div class="zodiac-button">
+                    <button id="zodiacBtn" onclick="checkZodiacsign()">Check Zodiac Sign!</button>
+                </div>
+                <!-- Button for Reset Page -->
+                <button id="resetBtn" onclick="reset()">Reset</button>
             </div>
-            <!-- Container for Calendar Event input box and button -->
-            <div class="calendar-event">
-                <input type="text" id="event-textinput">
-                <button id="addEvent" onclick="calendarEvent()">Add Event!</p>
-            </div>
-            <!-- Container for Zodiac Sign Check Button -->
-            <div class="zodiac-button">
-                <button id="zodiacBtn" onclick="checkZodiacsign()">Check Zodiac Sign!</button>
-            </div>
-            <!-- Button for Reset Page -->
-            <button id="resetBtn" onclick="reset()">Reset</button>
         </div>
     </div>
 </body>

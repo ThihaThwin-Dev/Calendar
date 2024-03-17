@@ -103,8 +103,12 @@ body{
     background-color: #007AFF;
     opacity: 0.7;
 }
-
-
+/* Start of Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /* Start of Zodiac Btn */
 .zodiac-button{
     padding-bottom: 10px;
@@ -122,8 +126,13 @@ body{
 }
 /* Start of all Input Boxes properties */
 .input-boxes{
-    margin: 20px;
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+#month-input{
+    margin-left: 5px;
 }
 input{
     width: 120px;
