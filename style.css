@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(assets/Bg.png);
+    background-size: cover;
+}
+/* Start of Calendar Body Container */
+#calendar-header{
+    display: none;
+}
+.calendar-container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+}
+.weekdays{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dayheader{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #F3F0E7;
+    box-shadow: 5px 5px 1px 1px;
+}
+.sun,.sat{
+    background-color: #007AFF;
+}
+#calendar-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.week1,.week2,.week3,.week4,.week5,.week6,.week7 {
+    display: flex;
+}
+.display-numbers{
+    font-size: 30px;
+    background-color: transparent;
+}
+.day{
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+}
+.event-text{
+    text-align: center;
+    text-wrap: wrap;
+    overflow: hidden;
+    padding-bottom: 2px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    background-color: transparent;
+}
+.calendar-selector,.calendar-event{
+    margin: auto;
+}
+.calendar-selector{
+    margin-top: 20px;
+}
+.calendar-event{
+    display: flex;
+    padding: 10px;
+}
+/* Start of Add Event btn */
+#addEvent {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 10px;
+    background-color: #007AFF;
+    padding: 5px;
+}
+/* Start of Show btn for calendar creation */
+#showCalendar{
+    margin-left: 20px;
+    background-color: #007AFF;
+    opacity: 0.7;
+}
+
+
+/* Start of Zodiac Btn */
+.zodiac-button{
+    padding-bottom: 10px;
+    margin: auto;
+}
+#zodiacBtn{
+    width: 250px;
+    color: black;
+    background-color: white;
+}
+/* Start of Reset Btn */
+#resetBtn{
+    margin: auto;
+    background-color: #fe001a;
+}
+/* Start of all Input Boxes properties */
+.input-boxes{
+    margin: 20px;
+    text-align: center;
+}
+input{
+    width: 120px;
+    font-size: 17px;
+    height: 22px;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 1px 1px;
+}
+/* Start of hover properties */
+button:hover,#event-selector:hover{
+    cursor: pointer;
+}
+/* Start of all Button Boxes properties */
+button{
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    border: none;
+    box-shadow: 5px 5px 1px 1px;
+}

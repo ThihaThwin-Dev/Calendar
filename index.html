@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gregorian Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Input Boxes for Date Inputs -->
+        <div class="input-boxes">
+            <input type="text" id="year-input" placeholder="Year">
+            <input type="text" id="month-input" placeholder="Month">
+            <button id="showCalendar" onclick="calendar()">Show</button>
+        </div>
+        <!-- Container for Calender -->
+        <div class="calendar-container">
+            <!-- Container for Calendar Header Names -->
+            <div id="calendar-header">
+                <div class="weekdays" id="weekDays">
+                </div>
+            </div>
+            <!-- Container for Calendar Numbers -->
+            <div class="calendar-body">
+                <div id="calendar-numbers">
+                </div>
+            </div>
+            <!-- Container for Calendar Date Input Selector for Adding Event -->
+            <div class="calendar-selector">
+                <input type="date" id="event-selector">
+            </div>
+            <!-- Container for Calendar Event input box and button -->
+            <div class="calendar-event">
+                <input type="text" id="event-textinput">
+                <button id="addEvent" onclick="calendarEvent()">Add Event!</p>
+            </div>
+            <!-- Container for Zodiac Sign Check Button -->
+            <div class="zodiac-button">
+                <button id="zodiacBtn" onclick="checkZodiacsign()">Check Zodiac Sign!</button>
+            </div>
+            <!-- Button for Reset Page -->
+            <button id="resetBtn" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
